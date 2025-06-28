@@ -7,8 +7,6 @@ RUN npm install
 
 COPY . .
 
-ENV DATABASE_URL="mysql://mysql:userpassword@g084ogckokwsc4448sso0s8w:3306/belajar_reactjs_contact_management"
-
 RUN npx prisma generate
 
 EXPOSE 3000
